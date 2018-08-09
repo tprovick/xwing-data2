@@ -38,6 +38,7 @@
       "initiative": 5,
       "limited": 1,
       "cost": 200,
+      "xws": "blackout-tiesilencer-firstorder",
       "ability": "???"
     },
     {
@@ -46,6 +47,7 @@
       "initiative": 5,
       "limited": 1,
       "cost": 200,
+      "xws": "kyloren-tiesilencer-firstorder",
       "ability": "After you defed, you may spend 1 [Force]..."
     }
   ]
