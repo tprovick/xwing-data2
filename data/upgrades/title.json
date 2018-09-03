@@ -11,12 +11,6 @@
         "slots": [
           "Title"
         ],
-        "actions": [
-          {
-            "type": "Reload",
-            "difficulty": "White"
-          }
-        ],
         "grants": [
           {
             "type": "slot",
@@ -66,10 +60,14 @@
           "value": 1,
           "recovers": 0
         },
-        "actions": [
+        "grants": [
           {
-            "type": "SLAM",
-            "difficulty": "White"
+            "type": "action",
+            "value": {
+              "type": "SLAM",
+              "difficulty": "White"
+            },
+            "amount": 1
           }
         ]
       }
@@ -324,12 +322,6 @@
         "slots": [
           "Title"
         ],
-        "actions": [
-          {
-            "type": "Evade",
-            "difficulty": "White"
-          }
-        ],
         "grants": [
           {
             "type": "action",
@@ -369,12 +361,6 @@
         "ability": "Add [Cannon] slot.",
         "slots": [
           "Title"
-        ],
-        "actions": [
-          {
-            "type": "Barrel Roll",
-            "difficulty": "White"
-          }
         ],
         "grants": [
           {

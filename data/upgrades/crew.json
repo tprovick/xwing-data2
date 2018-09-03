@@ -208,12 +208,6 @@
         "slots": [
           "Crew"
         ],
-        "actions": [
-          {
-            "type": "Calculate",
-            "difficulty": "White"
-          }
-        ],
         "grants": [
           {
             "type": "action",
@@ -484,12 +478,6 @@
         "slots": [
           "Crew"
         ],
-        "actions": [
-          {
-            "type": "Lock",
-            "difficulty": "White"
-          }
-        ],
         "grants": [
           {
             "type": "action",
@@ -682,12 +670,6 @@
         "ability": "You have the pilot ability of each other friendly ship with the IG-2000 upgrade. After you perform a [Calculate] action, gain 1 calculate token.",
         "slots": [
           "Crew"
-        ],
-        "actions": [
-          {
-            "type": "Calculate",
-            "difficulty": "White"
-          }
         ],
         "grants": [
           {
@@ -1370,12 +1352,6 @@
         "text": "In the chaos of a starfighter battle, a single order can mean the difference between a victory and a massacre.",
         "slots": [
           "Crew"
-        ],
-        "actions": [
-          {
-            "type": "Coordinate",
-            "difficulty": "White"
-          }
         ],
         "grants": [
           {

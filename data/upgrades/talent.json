@@ -89,12 +89,6 @@
         "slots": [
           "Talent"
         ],
-        "actions": [
-          {
-            "type": "Evade",
-            "difficulty": "Red"
-          }
-        ],
         "grants": [
           {
             "type": "action",
@@ -160,12 +154,6 @@
         "text": "While heavy fighters can often be coaxed into a barrel roll, seasoned pilots know how to do it without putting undue stress on their craft or leaving themselves open to attack.",
         "slots": [
           "Talent"
-        ],
-        "actions": [
-          {
-            "type": "Barrel Roll",
-            "difficulty": "White"
-          }
         ],
         "grants": [
           {
@@ -463,12 +451,6 @@
         "ability": "While you coordinate, the ship you choose can perform an action only if that action is also on your action bar.",
         "slots": [
           "Talent"
-        ],
-        "actions": [
-          {
-            "type": "Coordinate",
-            "difficulty": "Red"
-          }
         ],
         "grants": [
           {

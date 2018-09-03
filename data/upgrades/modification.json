@@ -114,12 +114,6 @@
         "slots": [
           "Modification"
         ],
-        "actions": [
-          {
-            "type": "Boost",
-            "difficulty": "White"
-          }
-        ],
         "grants": [
           {
             "type": "action",

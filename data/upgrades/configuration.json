@@ -107,10 +107,14 @@
         "slots": [
           "Configuration"
         ],
-        "actions": [
+        "grants": [
           {
-            "type": "Boost",
-            "difficulty": "White"
+            "type": "action",
+            "value": {
+              "type": "Boost",
+              "difficulty": "White"
+            },
+            "amount": 1
           },
           {
             "type": "Focus",
@@ -118,7 +122,8 @@
             "linked": {
               "difficulty": "Red",
               "type": "Boost"
-            }
+            },
+            "amount": 1
           }
         ]
       },
