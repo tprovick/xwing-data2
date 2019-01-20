@@ -35,6 +35,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "White", "type": "Rotate Arc" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_ShadowCaster.png",
   "pilots": [
     {
       "name": "Asajj Ventress",
@@ -45,7 +46,7 @@
       "xws": "asajjventress",
       "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship in your [Single Turret Arc] at range 0-2 and spend 1 [Force] token. If you do, that ship gains 1 stress token unless it removes 1 green token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_219.png",
-      "force": { "value": 2, "recovers": 1 },
+      "force": { "value": 2, "recovers": 1, "side": ["dark"] },
       "slots": [
         "Force Power",
         "Crew",
@@ -55,7 +56,8 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_219.jpg",
-      "ffg": 219
+      "ffg": 219,
+      "hyperspace": false
     },
     {
       "name": "Ketsu Onyo",
@@ -75,7 +77,8 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_218.jpg",
-      "ffg": 218
+      "ffg": 218,
+      "hyperspace": false
     },
     {
       "name": "Sabine Wren",
@@ -95,7 +98,8 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_220.jpg",
-      "ffg": 220
+      "ffg": 220,
+      "hyperspace": false
     },
     {
       "name": "Shadowport Hunter",
@@ -107,7 +111,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_221.png",
       "slots": ["Crew", "Illicit", "Illicit", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_221.jpg",
-      "ffg": 221
+      "ffg": 221,
+      "hyperspace": false
     }
   ]
 }

@@ -20,7 +20,8 @@
         "ffg": 392
       }
     ],
-    "cost": { "value": 5 }
+    "cost": { "value": 5 },
+    "hyperspace": false
   },
   {
     "name": "Conner Nets",
@@ -43,7 +44,8 @@
         "ffg": 393
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 6 },
+    "hyperspace": true
   },
   {
     "name": "Proton Bombs",
@@ -66,7 +68,8 @@
         "ffg": 394
       }
     ],
-    "cost": { "value": 5 }
+    "cost": { "value": 5 },
+    "hyperspace": true
   },
   {
     "name": "Proximity Mines",
@@ -82,14 +85,15 @@
         "device": {
           "name": "Proximity Mine",
           "type": "Mine",
-          "effect": "After a ship overlaps or moves through this device, it detonates. When this device detonates, that ship rolls 2 attack dice. That ship then suffers 1 [Hit]/[Critical Hit] damage for each matching result."
+          "effect": "After a ship overlaps or moves through this device, it detonates. When this device detonates, that ship rolls 2 attack dice. That ship then suffers 1 [Hit] damage plus 1 [Hit]/[Critical Hit] damage for each matching result."
         },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_66.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_66.jpg",
         "ffg": 395
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 6 },
+    "hyperspace": true
   },
   {
     "name": "Seismic Charges",
@@ -112,6 +116,7 @@
         "ffg": 396
       }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 3 },
+    "hyperspace": true
   }
 ]

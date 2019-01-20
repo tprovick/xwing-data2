@@ -32,6 +32,7 @@
     { "difficulty": "White", "type": "Reinforce" },
     { "difficulty": "White", "type": "Lock" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_YV-666.png",
   "pilots": [
     {
       "name": "Bossk",
@@ -60,7 +61,8 @@
         }
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_210.jpg",
-      "ffg": 210
+      "ffg": 210,
+      "hyperspace": false
     },
     {
       "name": "Latts Razzi",
@@ -83,7 +85,8 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_212.jpg",
-      "ffg": 212
+      "ffg": 212,
+      "hyperspace": false
     },
     {
       "name": "Moralo Eval",
@@ -107,7 +110,8 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_211.jpg",
-      "ffg": 211
+      "ffg": 211,
+      "hyperspace": false
     },
     {
       "name": "Trandoshan Slaver",
@@ -129,7 +133,8 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_213.jpg",
-      "ffg": 213
+      "ffg": 213,
+      "hyperspace": false
     }
   ]
 }

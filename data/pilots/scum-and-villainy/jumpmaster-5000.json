@@ -41,6 +41,7 @@
     },
     { "difficulty": "Red", "type": "Barrel Roll" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Jumpmaster.png",
   "pilots": [
     {
       "name": "Contracted Scout",
@@ -52,7 +53,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_217.png",
       "slots": ["Crew", "Torpedo", "Illicit", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_217.jpg",
-      "ffg": 217
+      "ffg": 217,
+      "hyperspace": false
     },
     {
       "name": "Dengar",
@@ -79,14 +81,15 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_214.jpg",
-      "ffg": 214
+      "ffg": 214,
+      "hyperspace": false
     },
     {
       "name": "Manaroo",
       "caption": "Graceful Aruzan",
       "initiative": 3,
       "limited": 1,
-      "cost": 54,
+      "cost": 56,
       "xws": "manaroo",
       "ability": "At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, transfer all green tokens assigned to you to that ship.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_215.png",
@@ -99,7 +102,8 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_215.jpg",
-      "ffg": 215
+      "ffg": 215,
+      "hyperspace": false
     },
     {
       "name": "Tel Trevura",
@@ -120,7 +124,8 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_216.jpg",
-      "ffg": 216
+      "ffg": 216,
+      "hyperspace": false
     }
   ]
 }

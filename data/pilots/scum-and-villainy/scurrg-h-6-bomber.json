@@ -33,6 +33,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "Red", "type": "Barrel Roll" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Scurrg.png",
   "pilots": [
     {
       "name": "Captain Nym",
@@ -54,7 +55,8 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_204.jpg",
-      "ffg": 204
+      "ffg": 204,
+      "hyperspace": false
     },
     {
       "name": "Lok Revenant",
@@ -66,7 +68,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_206.png",
       "slots": ["Turret", "Crew", "Device", "Device", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_206.jpg",
-      "ffg": 206
+      "ffg": 206,
+      "hyperspace": false
     },
     {
       "name": "Sol Sixxa",
@@ -87,7 +90,8 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_205.jpg",
-      "ffg": 205
+      "ffg": 205,
+      "hyperspace": false
     }
   ]
 }

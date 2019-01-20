@@ -15,7 +15,8 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "action": { "type": "Focus" } }]
+    "restrictions": [{ "action": { "type": "Focus" } }],
+    "hyperspace": true
   },
   {
     "name": "Crack Shot",
@@ -33,7 +34,8 @@
         "ffg": 230
       }
     ],
-    "cost": { "value": 1 }
+    "cost": { "value": 1 },
+    "hyperspace": true
   },
   {
     "name": "Daredevil",
@@ -54,7 +56,8 @@
     "restrictions": [
       { "sizes": ["Small"] },
       { "action": { "type": "Boost", "difficulty": "White" } }
-    ]
+    ],
+    "hyperspace": true
   },
   {
     "name": "Debris Gambit",
@@ -80,7 +83,8 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }]
+    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "hyperspace": false
   },
   {
     "name": "Elusive",
@@ -99,7 +103,8 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }]
+    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "hyperspace": true
   },
   {
     "name": "Expert Handling",
@@ -130,7 +135,8 @@
     },
     "restrictions": [
       { "action": { "type": "Barrel Roll", "difficulty": "Red" } }
-    ]
+    ],
+    "hyperspace": true
   },
   {
     "name": "Fanatical",
@@ -142,10 +148,13 @@
         "type": "Talent",
         "ability": "While you perform a primary attack, if you are not shielded, you may change 1 [Focus] result to a [Hit] result.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/6d/44/6d440bea-11dd-4e4c-b7ef-167a4b6d23e2/swz18_a1_fanatical.png",
-        "slots": ["Talent"]
+        "slots": ["Talent"],
+        "ffg": 459
       }
     ],
-    "cost": { "value": 0 }
+    "cost": { "value": 2 },
+    "restrictions": [{ "factions": ["First Order"] }],
+    "hyperspace": true
   },
   {
     "name": "Fearless",
@@ -163,7 +172,8 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": true
   },
   {
     "name": "Heroic",
@@ -174,10 +184,15 @@
         "title": "Heroic",
         "type": "Talent",
         "ability": "While you defend or perform an attack, if you have only blank results and have 2 or more results, you may reroll any number of your dice.",
-        "slots": ["Talent"]
+        "slots": ["Talent"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9f8baf4893cd90288df44b69b50fa788.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0f6d1677c35001248d7768047c10aa87.jpg",
+        "ffg": 471
       }
     ],
-    "cost": { "value": 0 }
+    "cost": { "value": 1 },
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   },
   {
     "name": "Intimidation",
@@ -194,7 +209,8 @@
         "ffg": 236
       }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 3 },
+    "hyperspace": true
   },
   {
     "name": "Juke",
@@ -218,7 +234,8 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }]
+    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "hyperspace": true
   },
   {
     "name": "Lone Wolf",
@@ -236,7 +253,8 @@
         "ffg": 238
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "hyperspace": true
   },
   {
     "name": "Marksmanship",
@@ -253,7 +271,8 @@
         "ffg": 239
       }
     ],
-    "cost": { "value": 1 }
+    "cost": { "value": 1 },
+    "hyperspace": true
   },
   {
     "name": "Outmaneuver",
@@ -263,14 +282,15 @@
       {
         "title": "Outmaneuver",
         "type": "Talent",
-        "ability": "While you perform a [Front Arc] arrack, if you are not in the defender's firing arc, the defender rolls 1 fewer defense die.",
+        "ability": "While you perform a [Front Arc] attack, if you are not in the defender's firing arc, the defender rolls 1 fewer defense die.",
         "slots": ["Talent"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_11.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_11.jpg",
         "ffg": 240
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 6 },
+    "hyperspace": true
   },
   {
     "name": "Predator",
@@ -287,7 +307,8 @@
         "ffg": 241
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 2 },
+    "hyperspace": true
   },
   {
     "name": "Ruthless",
@@ -305,7 +326,8 @@
       }
     ],
     "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "hyperspace": true
   },
   {
     "name": "Saturation Salvo",
@@ -323,7 +345,8 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "action": { "type": "Reload" } }]
+    "restrictions": [{ "action": { "type": "Reload" } }],
+    "hyperspace": false
   },
   {
     "name": "Selfless",
@@ -341,7 +364,8 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "Squad Leader",
@@ -366,7 +390,8 @@
         "ffg": 245
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "hyperspace": true
   },
   {
     "name": "Swarm Tactics",
@@ -383,7 +408,8 @@
         "ffg": 246
       }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 3 },
+    "hyperspace": true
   },
   {
     "name": "Trick Shot",
@@ -400,6 +426,7 @@
         "ffg": 247
       }
     ],
-    "cost": { "value": 1 }
+    "cost": { "value": 1 },
+    "hyperspace": true
   }
 ]

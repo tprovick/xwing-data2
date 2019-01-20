@@ -42,6 +42,7 @@
     { "difficulty": "White", "type": "Rotate Arc" },
     { "difficulty": "Red", "type": "Jam" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_HWK-290.png",
   "pilots": [
     {
       "name": "Jan Ors",
@@ -61,7 +62,8 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_42.jpg",
-      "ffg": 42
+      "ffg": 42,
+      "hyperspace": false
     },
     {
       "name": "Kyle Katarn",
@@ -81,7 +83,8 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_43.jpg",
-      "ffg": 43
+      "ffg": 43,
+      "hyperspace": false
     },
     {
       "name": "Rebel Scout",
@@ -93,7 +96,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_45.png",
       "slots": ["Crew", "Device", "Modification", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_45.jpg",
-      "ffg": 45
+      "ffg": 45,
+      "hyperspace": false
     },
     {
       "name": "Roark Garnet",
@@ -113,7 +117,8 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_44.jpg",
-      "ffg": 44
+      "ffg": 44,
+      "hyperspace": false
     }
   ]
 }

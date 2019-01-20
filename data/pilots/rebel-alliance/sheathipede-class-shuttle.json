@@ -33,6 +33,7 @@
     { "difficulty": "White", "type": "Focus" },
     { "difficulty": "White", "type": "Coordinate" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Sheathipede.png",
   "pilots": [
     {
       "name": "\"Zeb\" Orrelios",
@@ -49,7 +50,8 @@
       },
       "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_40.jpg",
-      "ffg": 40
+      "ffg": 40,
+      "hyperspace": false
     },
     {
       "name": "AP-5",
@@ -70,7 +72,8 @@
       },
       "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_41.jpg",
-      "ffg": 41
+      "ffg": 41,
+      "hyperspace": false
     },
     {
       "name": "Ezra Bridger",
@@ -81,14 +84,15 @@
       "xws": "ezrabridger-sheathipedeclassshuttle",
       "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade]/[Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_39.png",
-      "force": { "value": 1, "recovers": 1 },
+      "force": { "value": 1, "recovers": 1, "side": ["light"] },
       "shipAbility": {
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
       },
       "slots": ["Force Power", "Crew", "Astromech", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_39.jpg",
-      "ffg": 39
+      "ffg": 39,
+      "hyperspace": false
     },
     {
       "name": "Fenn Rau",
@@ -105,7 +109,8 @@
       },
       "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_38.jpg",
-      "ffg": 38
+      "ffg": 38,
+      "hyperspace": false
     }
   ]
 }
